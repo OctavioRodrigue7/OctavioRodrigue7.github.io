@@ -1,0 +1,258 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+
+}
+.seccion1{
+    background-image:url(./fondo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    z-index: 0;
+    height: 100vh;
+    filter: drop-shadow(5px 10px 20px rgba(3, 19, 49, 0.8))
+}
+@font-face {
+    font-family: "Bebas-Neue";
+    src: url(./BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(./Montserrat-VariableFont_wght.ttf);
+}
+.barra_navegacion{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-left: 0vw;
+    gap:15.5vw;
+    z-index: 1;
+    text-align: center;
+    font-size: 1.3vw;
+    margin-top: -7vh;
+}
+.separador{
+    margin-top:1.5vh;
+    width: 0.25vw;
+    height:5vh;
+    border-radius: 20%;
+    background-color: white;
+z-index: 2;
+ background: linear-gradient(to bottom,#999999, #6D6D6D, #6D6D6D , #999999 );
+}
+.Texto_Barra{
+    cursor: pointer;
+}
+
+.seccion1 h1{
+    font-family: "Bebas-Neue", sans-serif;
+    
+    color: white;
+    font-size: 5vw;
+    margin-top: 25vh;
+    margin-left: 2.5vw;
+    font-weight: normal;
+    margin-right: 40vw;
+}
+.seccion1 h3{
+    font-family: "Montserrat", sans-serif;
+    
+    color: white;
+    font-size: 2.5vw;
+    margin-top: -5vh;
+    margin-left: 2.5vw;
+    font-weight: normal;
+    margin-right: 35vw;
+}
+.seccion1_buttom{
+    width:12vw ;
+    height: 10vh;
+    margin-left: 2.5vw;
+    border-radius: 5%;
+    background: #30429D;
+    filter: drop-shadow(10px, 10px, 50px, black);
+    text-align: center;
+    cursor: pointer;
+}
+.seccion1_buttom h2{
+    color: white;
+    font-size: 2.5vw;
+    padding-top: 2vh;
+    font-weight: normal;
+    font-family: "Bebas-Neue", sans-serif;
+}
+.img{
+    position: absolute;
+    margin-top: -65vh;
+    margin-left: 60vw;
+    width: 40vw;
+    z-index: 1;
+}
+.elipse{
+    background-color: #0066ff;
+    border-radius: 50%;
+    filter: blur(25px);
+    width: 20vw;
+    height: 150px;
+    margin-top: -10vh;
+  margin-left: 68vw;
+  z-index: -1;
+}
+.seccion2{
+    background-color: #191919;
+    height: 200vh;
+    margin: 0%;
+    z-index:-99;
+}
+.fondo_tecnologias{
+        background-color: #222222;
+    height: 200vh;
+    width: 50%;
+    margin-left: 25vw;
+z-index: 0;
+    position: absolute;
+}
+.fondo_tecnologias h1{
+    color: white;
+    font-size: 3vw;
+    padding-top: 5vh;
+    font-weight: normal;
+    font-family: "Bebas-Neue", sans-serif;
+    text-align: center;
+    margin-left:18vw;
+    position: absolute;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+}
+.contenedorimg{
+    display: flex;
+    gap: 8vw;
+    margin-top: 10vh;
+    justify-content: center;
+}
+.contenedorimg img{
+    width: 8vw;
+    height: 20vh;
+}
+.barra_NavegacionLinea{
+     display: flex;
+    justify-content: space-evenly;
+    z-index: 3;
+    gap:4vw;
+    margin-top: 0%;
+}
+.linea{
+    width: 12.5vw;
+    height: 0.5vh;
+    margin-top: 16vh;
+    margin-left: 18vw;
+background-color: #30429D;
+filter: blur(3px);
+ border: 1px solid rgba(42, 112, 218, 0.3);
+    border-radius: 15%;
+}
+.linea1{
+    width: 12.5vw;
+    height: 0.2vh;
+    margin-top: 16vh;
+    margin-left: 18vw;
+background-color: #30429D;
+    position: absolute;
+    margin-top: -0.1vh;
+}
+.texto_tecnologias{
+    display: flex;
+    gap: 0vw;
+    margin-left: 0vw;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.texto_tecnologias2{
+display: flex;
+margin-left: 1.8vw;
+justify-content: space-around;
+color: rgb(255, 255, 255);
+font-family: "Bebas-Neue";
+font-weight: normal;
+font-size: 30px;
+}
+.footer{
+    height: 40vh;
+    background-color: #000000;
+    position: relative;
+    
+}
+.titulo_footer{
+    font-family: "Bebas-Neue", sans-serif;
+    color: white;
+    font-weight: normal;
+    font-size: 62px;
+    margin-left: 2.5vw;
+    margin-top: 10vh;
+    position: absolute;
+}
+.buttom_footer{
+    width:12vw ;
+    height: 8vh;
+    margin-left: 2.5vw;
+    border-radius: 5%;
+    background: #30429D;
+    filter: drop-shadow(10px, 10px, 50px, black);
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 18vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttom_footer h2{
+    color: white;
+    font-size: 36px;
+    font-weight: normal;
+    font-family: "Bebas-Neue", sans-serif;
+    text-align: center;
+}
+.imagen_de_inicio{
+margin-left: 47.5vw;
+margin-top: 15vh;
+position: absolute;
+}
+.imagen_de_inicio img{
+    width: 5vw;
+    height: 10vh;
+}
+.redes{
+    display: flex;
+    gap: 5vw;
+    margin-left: 78vw;
+    margin-top: -22vh;
+    z-index: 99;
+    position: absolute;
+}
+.x{
+width: 5vw;
+height: 10vh;
+cursor: pointer;
+}
+.instagran{
+width: 5vw;
+height: 10vh;
+cursor: pointer;
+}
+.redes_{
+    color: white;
+    font-family: "Bebas-Neue", sans-serif;
+    font-weight: normal;
+    font-size: 28px;
+    margin-left: 82vw;
+    margin-top: -28vh;
+    position: absolute;
+    
+}
